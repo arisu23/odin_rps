@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scoreboard">
+      <p>Human Score: <span id="human-score">0</span></p>
+      <p>Computer Score: <span id="computer-score">0</span></p>
+    </div>
+
+    <div class="button-container">
+      <button id="rock">👊</button>
+      <button id="paper">🖐</button>
+      <button id="scissors">✌</button>
+    </div>
+
+    <div class="notification">
+      <h2 id="notif-text">Start a new round!🚀</h2>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
